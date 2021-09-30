@@ -46,10 +46,10 @@ if !exists(":def") || !airline#util#has_vim9_script()
         continue
       endif
       if !has_key(a:palette[mode], 'airline_warning')
-        let a:palette[mode]['airline_warning'] = [ '#000000', '#df5f00', 232, 166 ]
+        let a:palette[mode]['airline_warning'] = [ '#000000', '#696969', 232, 166 ]
       endif
       if !has_key(a:palette[mode], 'airline_error')
-        let a:palette[mode]['airline_error'] = [ '#000000', '#990000', 232, 160 ]
+        let a:palette[mode]['airline_error'] = [ '#c2c2c2', '#3d3d3d', 232, 160 ]
       endif
       if !has_key(a:palette[mode], 'airline_term')
         let a:palette[mode]['airline_term'] = [ '#9cffd3', '#202020', 85, 232]
